@@ -14,6 +14,7 @@
 		B979B5ED19F42085005A0226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B979B5EC19F42085005A0226 /* Images.xcassets */; };
 		B979B5F019F42085005A0226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B979B5EE19F42085005A0226 /* LaunchScreen.xib */; };
 		B979B5FC19F42086005A0226 /* LectorBarCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B979B5FB19F42086005A0226 /* LectorBarCodeTests.m */; };
+		B979B60619F4213B005A0226 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B979B60519F4213B005A0226 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B979B5F519F42086005A0226 /* LectorBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectorBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B979B5FA19F42086005A0226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B979B5FB19F42086005A0226 /* LectorBarCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorBarCodeTests.m; sourceTree = "<group>"; };
+		B979B60519F4213B005A0226 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B979B60619F4213B005A0226 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		B979B5DF19F42085005A0226 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B979B60519F4213B005A0226 /* AVFoundation.framework */,
 				B979B5E019F42085005A0226 /* Info.plist */,
 				B979B5E119F42085005A0226 /* main.m */,
 			);
@@ -168,6 +172,7 @@
 				TargetAttributes = {
 					B979B5DB19F42084005A0226 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6ZJQ583HU9;
 					};
 					B979B5F419F42086005A0226 = {
 						CreatedOnToolsVersion = 6.1;
@@ -343,6 +348,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LectorBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LectorBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
