@@ -16,22 +16,6 @@
 @implementation ViewController
 
 
-
-
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    self.codeDetected = NO;
-    [self setupCamera];
-    
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-
 -(void)setupCamera{
     
     
@@ -67,6 +51,22 @@
     
     
 }
+
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.codeDetected = NO;
+    [self setupCamera];
+    
+    
+    
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+
 
 
 

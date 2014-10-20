@@ -172,6 +172,7 @@
 				TargetAttributes = {
 					B979B5DB19F42084005A0226 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6ZJQ583HU9;
 					};
 					B979B5F419F42086005A0226 = {
 						CreatedOnToolsVersion = 6.1;
@@ -347,7 +348,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LectorBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -359,7 +359,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LectorBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -420,6 +419,7 @@
 				B979B60119F42086005A0226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B979B60219F42086005A0226 /* Build configuration list for PBXNativeTarget "LectorBarCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +428,7 @@
 				B979B60419F42086005A0226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
